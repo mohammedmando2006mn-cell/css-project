@@ -102,3 +102,33 @@ a {
   font-size: 25px;
 }
 /*call section*/
+.call{
+  display: flex;
+  justify-content: center;
+
+}
+.call-body{
+  background-color: #3882f6;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+  gap: 100px;
+  margin: 65px;
+ padding-left: 70px;
+ padding-right: 70px;
+}
+.call-btn{
+  background-color: #3882f6;
+  border-color: white;
+  font-weight: 300;
+  border-radius: 8px;
+  color: white;
+ padding-left: 15px;
+ padding-right: 15px;
+ font-size: 16px;
+ padding-top: 5px;
+ padding-bottom: 5px;
+  
+}
