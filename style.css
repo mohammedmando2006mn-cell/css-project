@@ -1,6 +1,8 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0px;
+  display: flex;
+  flex-direction: column;
 }
 /*Hero section*/
 /*hero-top*/
@@ -131,4 +133,11 @@ a {
  padding-top: 5px;
  padding-bottom: 5px;
   
+}
+/*footer section*/
+.footer{
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  color: white;
 }
